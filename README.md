@@ -149,7 +149,8 @@ $$ \begin{pmatrix} x' \\ y' \end{pmatrix} = V \begin{pmatrix} u \\ v \end{pmatri
 
 **Сдвиг центра эллипса в математическое ожидание $\boldsymbol{\mu}$:**
 
-$$ \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} x' \\ y' \end{pmatrix} + \begin{pmatrix} \mu_x \\ \mu_y \end{pmatrix} $$ > **Замечание:** Эллипс, построенный таким образом, содержит $p \cdot 100\%$ точек двумерного нормального распределения.
+$$ \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} x' \\ y' \end{pmatrix} + \begin{pmatrix} \mu_x \\ \mu_y \end{pmatrix} $$
+> **Замечание:** Эллипс, построенный таким образом, содержит $p \cdot 100\%$ точек двумерного нормального распределения.
 
 ---
 
