@@ -303,7 +303,8 @@ $$ \ln L(\mu_x, \mu_y, \sigma_x, \sigma_y, \rho) = -n\ln(2\pi) - n\ln(\sigma_x) 
 
 - Вторые центральные моменты:
 
-$$ \begin{aligned} \hat{\sigma}_x^{2,\text{MM}} &= \frac{1}{n} \sum_{i=1}^n (x_i - \bar{x})^2 \\ \hat{\sigma}_y^{2,\text{MM}} &= \frac{1}{n} \sum_{i=1}^n (y_i - \bar{y})^2 \\ \hat{\rho}^{\text{MM}} &= \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^n (x_i - \bar{x})^2 \sum_{i=1}^n (y_i - \bar{y})^2}} \end{aligned} $$ > **Замечание:** Для нормального распределения ММП и ММ совпадают для первых двух моментов.
+$$ \begin{aligned} \hat{\sigma}_x^{2,\text{MM}} &= \frac{1}{n} \sum_{i=1}^n (x_i - \bar{x})^2 \\ \hat{\sigma}_y^{2,\text{MM}} &= \frac{1}{n} \sum_{i=1}^n (y_i - \bar{y})^2 \\ \hat{\rho}^{\text{MM}} &= \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^n (x_i - \bar{x})^2 \sum_{i=1}^n (y_i - \bar{y})^2}} \end{aligned} $$ 
+> **Замечание:** Для нормального распределения ММП и ММ совпадают для первых двух моментов.
 
   
 
@@ -323,7 +324,7 @@ $$ \begin{aligned} \hat{\sigma}_x^{2,\text{MM}} &= \frac{1}{n} \sum_{i=1}^n (x_i
 
 **Bootstrap доверительный интервал (процентильный):**
 
-$$[\hat{\theta}^*_{(\alpha/2)}, \hat{\theta}^*_{(1-\alpha/2)}]$$
+$$[\hat{\theta}_{\alpha/2}, \hat{\theta}_{1-\alpha/2}]$$
 
 ---
 
